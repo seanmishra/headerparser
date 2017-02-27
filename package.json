@@ -1,0 +1,23 @@
+{
+  "name": "headerparser",
+  "version": "1.0.0",
+  "description": "A request header parser API built with Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cod3rguy/headerparser.git"
+  },
+  "keywords": [
+    "nodejs",
+    "freecodecamp"
+  ],
+  "author": "Sean Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cod3rguy/headerparser/issues"
+  },
+  "homepage": "https://github.com/cod3rguy/headerparser#readme"
+}
