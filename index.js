@@ -1,4 +1,5 @@
-let http = require('http')
+const http = require('http')
+const port = process.env.PORT || 5000
 
 let app = http.createServer((request, response) => {
 
@@ -29,4 +30,4 @@ var getOS = (request) => {
     return OS
 }
 
-app.listen(1337, () => {console.log('Listening on port 1337')})
+app.listen(port, () => {console.log(`Listening on port ${port}`)})
